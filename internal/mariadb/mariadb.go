@@ -16,7 +16,7 @@ var recipesSchema = `CREATE TABLE IF NOT EXISTS Recipes(
 
 var recipeIngredientsSchema = `CREATE TABLE IF NOT EXISTS RecipeIngredients(
   ID int UNSIGNED NOT NULL AUTO_INCREMENT,
-  Ingredient int,
+  Ingredient int UNSIGNED,
   Amount float NOT NULL,
   Unit varchar(25) NOT NULL,
   PRIMARY KEY (ID),
@@ -26,8 +26,8 @@ var recipeIngredientsSchema = `CREATE TABLE IF NOT EXISTS RecipeIngredients(
 
 var ingredientMembershipSchema = `CREATE TABLE IF NOT EXISTS IngredientMemberships(
   ID int UNSIGNED NOT NULL AUTO_INCREMENT,
-  Ingredient int,
-  Recipe int,
+  Ingredient int UNSIGNED,
+  Recipe int UNSIGNED,
   PRIMARY KEY (ID),
   FOREIGN KEY (Ingredient) REFERENCES RecipeIngredients(ID),
   FOREIGN KEY (Recipe) REFERENCES Recipes(ID)
