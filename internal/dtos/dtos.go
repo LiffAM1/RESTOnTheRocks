@@ -1,20 +1,27 @@
 package dtos
 
 type Recipe struct {
-	Id string
+	Id int
 	Name, Url string
-	RecipeIngredients []*RecipeIngredient
+	//RecipeIngredients []*RecipeIngredient
 }
 
+// RecipeIngredient represents an ingredient that's used in a recipe
 type RecipeIngredient struct {
-	Id string
+	Id int
 	Ingredient *Ingredient
-	Amount float64
+	Amount float32
 	Unit string // We convert all measurement units to ounces
 }
 
+// IngredientMembership maintains the mapping of ingredients in each recipe
+type IngredientMembership struct {
+	IngredientId int
+	RecipeId int
+}
+
 type Ingredient struct {
-	Id string
+	Id int
 	Name string
 	Recipes []string // List of Recipe Id's
 }
