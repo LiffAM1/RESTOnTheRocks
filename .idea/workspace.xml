@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62c57932-9891-46c9-9e1b-1787f9d61cc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../../.." />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZoJCsWjb72URdl2WR5GBP3HsNj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abigail\Documents\gopath\src\github.com\LiffAM1\rotr\internal" />
+      <recent name="C:\Users\Abigail\Documents\gopath\src\github.com\LiffAM1\rotr\internal\scraper" />
+      <recent name="C:\Users\Abigail\Documents\RESTOnTheRocks\internal\dtos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/internal" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/main.go" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/internal/main.go" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build scratch.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/internal/scraper" />
+      <kind value="DIRECTORY" />
+      <filePath value="$APPLICATION_CONFIG_DIR$/scratches/scratch.go" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/internal/scraper" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build scratch.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$APPLICATION_CONFIG_DIR$/scratches/scratch.go" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build scratch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/scraper" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/scraper" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build scratches/ (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$/../../.." />
+      <kind value="DIRECTORY" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build scratches/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/LiffAM1/rotr" />
+      <directory value="$PROJECT_DIR$/../../../.." />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScraper in github.com/LiffAM1/rotr/internal/scraper (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/internal/scraper" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/LiffAM1/rotr/internal/scraper" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestScraper$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestScraper in github.com/LiffAM1/rotr/internal/scraper" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="RESTOnTheRocks" />
+      <working_directory value="$PROJECT_DIR$/internal/scraper" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/LiffAM1/rotr/internal/scraper" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestScraper$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestScraper in github.com/LiffAM1/rotr/internal/scraper (1)" />
+        <item itemvalue="Go Test.TestScraper in github.com/LiffAM1/rotr/internal/scraper" />
+        <item itemvalue="Go Build.go build scratch.go (2)" />
+        <item itemvalue="Go Build.go build scratch.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="999" y="336" key="#go_build_main.go" timestamp="1585621398747">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="336" key="#go_build_main.go/0.0.2560.1400@0.0.2560.1400" timestamp="1585621398747" />
+    <state x="999" y="336" key="#go_build_main.go_(1)" timestamp="1585621439866">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="336" key="#go_build_main.go_(1)/0.0.2560.1400@0.0.2560.1400" timestamp="1585621439866" />
+    <state x="999" y="336" key="#go_build_scraper.go" timestamp="1585620473071">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="336" key="#go_build_scraper.go/0.0.2560.1400@0.0.2560.1400" timestamp="1585620473071" />
+    <state x="999" y="356" key="#go_build_scratch.go" timestamp="1585622046950">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="356" key="#go_build_scratch.go/0.0.2560.1400@0.0.2560.1400" timestamp="1585622046950" />
+    <state x="999" y="356" key="#go_build_scratch.go_(1)" timestamp="1585622089283">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="356" key="#go_build_scratch.go_(1)/0.0.2560.1400@0.0.2560.1400" timestamp="1585622089283" />
+    <state x="999" y="356" key="#go_build_scratch.go_(2)" timestamp="1585622125589">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="356" key="#go_build_scratch.go_(2)/0.0.2560.1400@0.0.2560.1400" timestamp="1585622125589" />
+    <state x="999" y="344" key="#go_build_scratches/" timestamp="1585621645278">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="344" key="#go_build_scratches//0.0.2560.1400@0.0.2560.1400" timestamp="1585621645278" />
+    <state x="999" y="344" key="#go_build_scratches/_(1)" timestamp="1585621729698">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="344" key="#go_build_scratches/_(1)/0.0.2560.1400@0.0.2560.1400" timestamp="1585621729698" />
+    <state x="1014" y="462" key="EnvironmentVariablesDialog" timestamp="1585621368807">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1014" y="462" key="EnvironmentVariablesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1585621368807" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1586563212467">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1586563212467" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1585718878484">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585718878484" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1585718878484">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585718878484" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1585718878484">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585718878484" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1585718878484">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585718878484" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1585622386676">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1585622386676" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1585622386676">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1585622386676" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1585622386676">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1585622386676" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1585622386676">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1585622386676" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1585506372155">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1585506372155" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1585619528507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1585619528507" />
+  </component>
+</project>
