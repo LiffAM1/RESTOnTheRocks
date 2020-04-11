@@ -4,22 +4,20 @@ import (
 	"fmt"
 	"github.com/LiffAM1/rotr/internal/dtos"
 	"github.com/gocolly/colly"
+	"strconv"
 	"strings"
 )
 
-func ScrapeByName(recipeName string) []dtos.Recipe {
-	// Search Google for the recipe name against known sites
-	// For each search, go to first 10 links
-	// For each link, based on the site, choose a colly collector and scrape the site and create a recipe object
-	// return list of recipe objects
-	recipes := scrapeGoogle("https://www.google.com/search?q=gin+and+tonic&as_sitesearch=allrecipes.com")
-	for i := 0; i < len(recipes); i++ {
-		fmt.Println(recipes[i].Name)
-	}
-	return recipes
+func ScrapeByQuery(query string, count int) []dtos.Recipe {
+	queryFormatted := strings.TrimSpace(strings.Join(strings.Split(query," "),"+"))
+	url := "https://www.google.com/search?q=" + queryFormatted + "&as_sitesearch=allrecipes.com/recipe"
+	return scrapeGoogle(url,count)
 }
 
-func scrapeGoogle(url string) []dtos.Recipe {
+// TODO: Ingredient search
+// func ScrapeByIngredient(ingrName string) []dtos.Recipe
+
+func scrapeGoogle(url string, count int) []dtos.Recipe {
 	recipes := []dtos.Recipe{}
 	c := colly.NewCollector(colly.AllowedDomains("www.google.com"), colly.MaxDepth(5))
 
@@ -29,12 +27,11 @@ func scrapeGoogle(url string) []dtos.Recipe {
 	// Google search scraper
 	r := dtos.Recipe{}
 	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
-		if len(recipes) > 10 { return }
+		if len(recipes) >= count { return }
 		foundURL := e.Request.AbsoluteURL(e.Attr("href"))
 		if strings.HasPrefix(foundURL, "https://www.google.com/url?q=https://www.allrecipes.com/recipe") &&
-			!strings.Contains(foundURL,"print") && !strings.Contains(foundURL,"reviews"){
+			!strings.Contains(foundURL,"print") && !strings.Contains(foundURL,"reviews") {
 			r.Url = strings.TrimPrefix(strings.Split(foundURL,"&sa")[0],"https://www.google.com/url?q=")
-			fmt.Println(r.Url)
 			allRecipesCollector.Visit(r.Url)
 		}
 	})
@@ -43,17 +40,19 @@ func scrapeGoogle(url string) []dtos.Recipe {
 	// AllRecipes collector behavior
 	allRecipesCollector.OnHTML(`#main-content`, func(e *colly.HTMLElement) {
 		r.Name = e.ChildText("#recipe-main-content")
-		fmt.Println(r.Name)
 		e.ForEach("span[itemprop=recipeIngredient]", func(_ int, s *colly.HTMLElement) {
-			// TODO Parse/convert ingredients to ounces, add to recipe,add ingredients
-			fmt.Println(s.Text)
+			// TODO Parse/convert ingredients to ounces, add to recipe, add ingredients
 		})
 		recipes = append(recipes,r)
-		fmt.Println(len(recipes))
 	})
 
-	for i := 0;
-	c.Visit(url)
+	for i := 0; len(recipes) < count; i++ {
+		fmt.Println("Searching Google Page# " + strconv.Itoa(i+1))
+		j := i*10
+		startParam := "&start=" + strconv.Itoa(j)
+		c.Visit(url + startParam)
+		c.Wait()
+	}
 	return recipes
 }
 
